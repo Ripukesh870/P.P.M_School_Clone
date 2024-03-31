@@ -1,0 +1,223 @@
+.school_footer{
+    /* border: 2px solid red; */
+    margin: 15px;
+    padding-top: 10px;
+    background-color: rgb(135, 126, 126);
+}
+
+.school_footer_contaner{
+    /* border: 2px solid red; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.s_f_inner{
+    /* border: 2px solid red; */
+    width: 24%;
+    margin: 5px 2px;
+}
+.s_f_inner_box1{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 20px;
+}
+.s_f_inner_box1 img{
+    border: 1px solid red;
+    margin: 5px;
+    width: 60px ;
+}
+.s_f_inner_box11{
+    /* border: 2px solid red; */
+    margin: 40px;
+}
+.s_f_inner_box2{
+    /* border:2px solid red; */
+    margin: 20px;
+
+}
+
+.s_f_inner_box2 h3{
+    
+}
+.s_f_inner_box2 ul{
+    /* border: 2px solid red; */
+    text-align: left;
+    /* margin: 0; */
+}
+
+.s_f_inner_box2 li{
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 8px;
+    margin-left: -20px;
+}
+.s_f_inner_box2 li a{
+    color: black;
+    /* list-style-type: none; */
+    text-decoration: none;
+    font-size: 18px;
+    /* font-weight: bold; */
+    padding: 20px;
+
+}
+
+.s_f_inner_box3{
+    margin: 20px;
+}
+
+.s_f_inner_box3 li{
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 8px;
+    margin-left: -20px;
+}
+
+.s_f_inner_box3 li a{
+    color: black;
+    /* list-style-type: none; */
+    text-decoration: none;
+    font-size: 18px;
+    /* font-weight: bold; */
+    padding: 20px;
+
+}
+
+.s_f_inner_box4 {
+    margin: 20px;
+}
+
+.s_f_inner_box4_logo{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px;
+}
+.s_f_inner_box4_logo a{
+    /* border: 2px solid red; */
+    font-size:30px;
+    margin: 5px;
+    color: black;
+}
+
+.school_footer2{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    /* margin: 10px; */
+    padding: 10px;
+    background-color: rgb(51, 55, 58);
+    color: white;
+}
+
+@media (max-width: 1020px) {
+    .s_f_inner_box2 li a{
+        font-size: 13px;
+    }
+    .s_f_inner_box3 li a{
+        color: black;
+        /* list-style-type: none; */
+        text-decoration: none;
+        font-size: 13px;
+        /* font-weight: bold; */
+        padding: 20px;
+    
+    }
+    .s_f_inner_box4_logo a{
+        /* border: 2px solid red; */
+        font-size:20px;
+        margin: 5px;
+        color: black;
+    }
+    .s_f_inner_box11{
+        /* border: 2px solid red; */
+        margin: 20px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .school_footer_contaner{
+        /* border: 2px solid red; */
+        margin: 20px;
+        display: block;
+        justify-content: space-between;
+    }
+    .s_f_inner{
+        /* border: 2px solid red; */
+        border-bottom: 3px solid black;
+        width: auto;
+        margin: 5px 2px;
+    }
+    .s_f_inner_box1{
+        /* border: 2px solid red; */
+        display: flex;
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .s_f_inner{
+        border: none;
+        /* margin: 0; */
+
+        border-bottom: 2px solid black;
+    }
+    .s_f_inner_box1{
+        margin: 0;
+    }
+    .s_f_inner_box2{
+
+        margin: 0;
+    }
+    .s_f_inner_box2 h4{
+        font-size: 18px;
+    }
+    .s_f_inner_box2 li a{
+        font-size: 10px;
+    }
+    .s_f_inner_box3{
+        margin: 0;
+
+    }
+    .s_f_inner_box3 h4{
+        font-size: 18px;
+    }
+
+    .s_f_inner_box3 li a{
+        color: black;
+        /* list-style-type: none; */
+        text-decoration: none;
+        font-size: 10px;
+        /* font-weight: bold; */
+        padding: 20px;
+    
+    }
+    .s_f_inner_box4_logo a{
+        /* border: 2px solid red; */
+        font-size:20px;
+        margin: 5px;
+        color: black;
+    }
+    .s_f_inner_box11{
+        /* border: 2px solid red; */
+        margin: 20px;
+        font-size: 15px;
+    }
+    .s_f_inner_box4{
+        margin: 0;
+        margin-top: 20px;
+
+    }
+
+    .s_f_inner_box4 h4{
+        font-size: 17px;
+    }
+    .s_f_inner_box4 p{
+        font-size: 11px;
+    }
+
+}

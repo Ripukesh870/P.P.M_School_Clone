@@ -1,0 +1,121 @@
+.school_home_contaner{
+    width: auto;
+    border: 2px solid rgb(72, 59, 59);
+    margin: 15px;
+    /* height: 600px; */
+    padding-bottom: 40px;
+    /* margin-top: 100px; */
+    background-color: #c4c1c1;
+    
+}
+
+.school_home_contaner_inner{
+    /* border: 2px solid #ff0000; */
+    margin: 30px;
+    width: auto;
+    height: 400px;
+    z-index: 0;
+}
+
+.school_home_contaner_inner1{
+     /* border: 2px solid red; */
+    margin: 30px;
+    height: auto;
+    /* padding: 20px; */
+    width: auto; 
+}
+.school_home_contaner_inner1 h3{
+    /* font-size: 40px; */
+    margin: 20px;
+    text-align: center;
+    
+}
+.S_notification {
+    border: 2px solid rgb(54, 42, 42);
+    margin: 15px 30px ;
+}
+.S_notification a{
+    /* overflow: hidden; */
+    /* text-decoration: none; */
+    /* border: 2px solid red; */
+    color: black;
+}
+.S_notification a b{
+    color: rgb(7, 78, 245);
+}
+
+.S_notification li{
+    /* border: epx solid red; */
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 5px;
+    margin-right: 30px;
+    
+}
+
+.school_home_contaner_inner2{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+    margin: 40px 30px 10px;
+    height: auto;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+
+}
+
+.school_home_contaner_inner2 h2{
+    color: #5e0808;
+}
+.social_media_icon{
+    /* border: 2px solid red;
+    width: 60px;
+    height: 60px;
+    font-size: 60px; */
+}
+
+.s_icon{
+    /* border: 2px solid red; */
+    font-size: 3rem;
+    color: black;
+    margin: .4em;
+}
+
+
+@media (max-width: 850px) {
+    .S_notification a{
+        font-size: 14px;
+        color: black;
+    }
+
+    .S_notification a b{
+        color: rgb(7, 78, 245);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .school_home_contaner_inner{
+        /* border: 2px solid red; */
+        height: 250px;
+        margin: 0;
+    }
+
+    .school_home_contaner_inner1{
+        /* border: 2px solid red; */
+        margin: 0;
+    }
+
+    .S_notification{
+        /* border: 2px solid red; */
+        padding-left:15px;
+        padding-right: 0px;
+        margin: 2px;
+    }
+
+    .S_notification li{
+        padding-right: 0;
+    }
+
+}
