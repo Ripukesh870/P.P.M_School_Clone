@@ -9,16 +9,26 @@
 .s_r_upload_from{
     border: 2px solid red;
     margin: 30px auto;
-    width: 50%;
+    width: 60%;
     padding-top: 30px;
     border-radius: 10px;
     background-color: #999393;
+}
+.s_r_upload_from div{
+    /* border: 2px solid red; */
+    /* width: 100vw; */
 }
 .s_r_upload h3{
     margin-top: 30px;
 }
 .s_r_label{
     font-size: 20px;
+    /* border: 2px solid red; */
+    width: 48%;
+    overflow: none;
+    text-align: right;
+    
+    /* text-wrap: nowrap; */
 }
 
 .s_r_upload_from div{
@@ -31,7 +41,8 @@
     border: 2px solid black;
     border-radius: 10px;
     padding: 0 15px;
-    width: 40%;
+    width: 49%;
+    margin-right: 10px;
 }
 .s_f_number_box{
     display: flex;
@@ -53,3 +64,57 @@
     
 }
 
+@media (max-width: 1147px) {
+    .s_r_label{
+        text-align: left;
+        padding-left: 10px;
+    }
+    .s_r_label1{
+        text-align: right;
+        /* border: 2px solid red; */
+    }
+}
+@media (max-width: 1012px) {
+    .s_r_label1{
+        text-align: left;
+        /* border: 2px solid red; */
+    }
+
+}
+
+@media (max-width: 905px) {
+    .s_r_upload_from{
+        width: 80%;
+
+    }
+
+}
+@media (max-width: 675px) {
+    .s_r_upload_from{
+        width: 90%;
+        /* font-size: 16px; */
+
+    }
+    .s_r_label{
+        font-size: 18px;
+        width: 80%;
+    }
+    .s_r_input{
+        width: 80%;
+        font-size: 18px;
+    }
+    .s_r_button{
+        font-size: 14px;
+    }
+    .s_f_captcha h5{
+        font-size: 18px;
+    }
+    .s_f_number_box h4{
+        font-size: 18px;
+    }
+    .s_f_input_num{
+        font-size: 15px;
+        padding: 0 5px;
+    }
+
+}

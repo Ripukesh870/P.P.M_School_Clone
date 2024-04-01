@@ -26,10 +26,10 @@ function Regastationupload() {
                 <input className='s_r_input' type="text" placeholder='enter your address'/>
             </div>
             <div>
-                <label htmlFor="" className='s_r_label'>Condidate imageb : </label>
-                <input type="file" style={{borderRadius:"10px",marginLeft:"10px"}}/>
+                <label htmlFor="" className='s_r_label s_r_label1'>Condidate image : </label>
+                <input type="file" className='s_r_input_file s_r_input' style={{borderRadius:"10px",marginLeft:"10px"}}/>
             </div>
-            <div>
+            <div className='s_f_captcha'>
                 <h5>Captcha </h5>
                 <div className='s_f_number_box'>
                     <h4>5 + 6 = </h4>

@@ -22,22 +22,28 @@
 
 .s_result_upload_from_box{
     margin: 10px 5px;
+    /* border: 2px solid red; */
 }
 .s_result_upload_from_box_label{
+    /* border: 2px solid red; */
     font-size: 18px;
     margin-right: 10px;
+    width: 45%;
+    text-align: right;
 }
 .s_result_upload_from_box_input{
     font-size: 18px;
     padding: 0px 10px;
     border-radius: 10px;
     border:2px solid black;
+    width: 45%;
 }
 .s_result_upload_from_box_input_number{
-    width: 65px;
+    width: 45%;
     border: 2px solid black;
     border-radius: 10px;
     padding:0 10px;
+
 }
 .s_result_upload_check_me{
    display: flex;
@@ -92,4 +98,20 @@
         font-size: 12px;
     }
     
+}
+
+@media (max-width: 600px) {
+    .s_result_upload_from_box_label{
+        font-size: 13px;
+    }
+
+    .s_result_upload_from_box_input{
+        font-size: 13px;
+    }
+    .s_result_upload_from_box_input_number{
+        font-size: 13px;
+    }
+    .s_res_upload_btn{
+        font-size: 14px;
+    }
 }
