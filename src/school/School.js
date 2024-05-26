@@ -8,6 +8,7 @@ import Home from './Home';
 import Regastationupload from './Regastationupload'
 import Resultupload from './Resultupload';
 import Newnotificationupload from './Newnotificationupload';
+import Newadmition from './Newadmition';
 
 function School() {
   return (
@@ -22,7 +23,7 @@ function School() {
           <Route path='/registerupload' element={<Regastationupload />}/>
           <Route path='/resultupload' element={<Resultupload />}/>
           <Route path='/newnotification' element={<Newnotificationupload/>}/>
-
+          <Route path='/newadmition' element={<Newadmition />} />
           {/* <Route path='/randomcolor' element={<RandomColor/>} />
           <Route path='/counter' element={<Counter/>} />
           <Route path='/todolist' element={<Todolist/>} />

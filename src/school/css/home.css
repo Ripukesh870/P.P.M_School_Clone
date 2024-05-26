@@ -1,19 +1,19 @@
 .school_home_contaner{
-    width: auto;
-    border: 2px solid rgb(72, 59, 59);
-    margin: 15px;
+    /* width: auto; */
+    /* border: 2px solid rgb(72, 59, 59); */
+    /* margin: 15px; */
     /* height: 600px; */
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     /* margin-top: 100px; */
-    background-color: #c4c1c1;
-    
+    /* background-color: #c4c1c1; */
+
 }
 
 .school_home_contaner_inner{
     /* border: 2px solid #ff0000; */
     margin: 30px;
     width: auto;
-    height: 400px;
+    height: 600px;
     z-index: 0;
 }
 
@@ -27,13 +27,157 @@
 .school_home_contaner_inner1 h3{
     /* font-size: 40px; */
     margin: 20px;
+    /* border: 2px solid red; */
     text-align: center;
     
 }
+.School_CBSE{
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+.School_CBSE h5{
+    background-color: #F7C052;
+    display: inline;
+    padding: 5px 15px;
+    border-radius: 2px 20px 20px 2px;
+
+}
+
+.School_CBSE ul {
+    display: flex;
+    /* border: 2px solid red; */
+    /* margin: auto auto; */
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: left;
+   
+}
+
+.School_CBSE ul li{
+    cursor: pointer;
+}
+
+.DR_SK_SUnil{
+    margin-top: 70px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+.DR_SK_SUnil1{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 40% ; 
+}
+.DR_SK_SUnil1 img{
+    /* border: 2px solid red; */
+    width: 370px;
+    height: 300px;
+}
+
+.DR_SK_SUnil1 div{
+    /* border: 2px solid red; */
+    background-color: #0F92EA;
+    color: white;
+    padding: 30px;
+    text-align: right;
+    width: 300px;
+    height: 270px;
+}
+.DR_SK_SUnil1 div button{
+    border: none;
+    background-color: #0F92EA;
+}
+
+.School_paragraph{
+    /* border: 2px solid red; */
+    margin: 20px 30px;
+    text-align: left;
+    color: black;
+}
+
+.School_Facility{
+    padding:20px 0px;
+    border: none;
+    background-color: black;
+}
+
+.School_facility1{
+    color: whitesmoke;
+    display: flex;
+    margin: 20px;
+
+}
+
+.School_facility1 h4{
+    /* border: 2px solid red; */
+    margin: 0px 5px;
+    padding: 3px 25px;
+
+}
+.SFB1{
+    background-color: #F7C052;
+    color: black;
+    border-radius: 20px 2px 2px 20px;
+    
+}
+.SFB2{
+    background-color: #f78452;
+    color: white;
+    border-radius: 2px 20px 20px 2px;
+}
+.OurFaclititys{
+    /* border: 2px solid rgb(92, 52, 52); */
+    display: flex;
+    justify-content: space-between;
+}
+.OurFaclititys1{
+    border: 2px solid rgb(50, 44, 44);
+    margin: 30px 0px;
+    padding: 20px 0px;
+    display: flex;
+    width: 40%;
+    
+}
+.OurFaclititys2{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-right: 30px; */
+    text-align: right;
+    color: white;
+    padding-right: 20px;
+}
+
+.OurFaclititys2 button, .OurFaclititys3 button{
+    border: none;
+    background-color: black;
+    color: rgb(43, 37, 193) ;
+}
+
+.OurFaclititys3{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-right: 50px; */
+    /* text-align: left; */
+    padding: 10px;
+    color: white;
+}
+
+.OurFaclititys1 .img1{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-right: -60px;
+}
+.OurFaclititys1 .img2{
+    margin-left: -60px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+}
+
 .S_notification {
     border: 2px solid rgb(54, 42, 42);
     margin: 15px 30px ;
 }
+
 .S_notification a{
     /* overflow: hidden; */
     /* text-decoration: none; */
