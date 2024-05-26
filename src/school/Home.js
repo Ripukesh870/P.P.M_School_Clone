@@ -126,6 +126,9 @@ function Home() {
                 </p>
                 <button>Read More »</button>
               </div>
+
+
+              
               <img src={Sudarsansir} alt="" />
             </div>
           </div>

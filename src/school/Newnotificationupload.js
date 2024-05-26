@@ -1,5 +1,7 @@
 import React from 'react'
 import "./css/Newnotificationupload.css"
+
+
 function Newnotificationupload() {
   return (
     <div className='s_N_update'>
