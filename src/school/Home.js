@@ -10,6 +10,10 @@ import img5 from "./image/banner-5.jpg";
 import library from "./image/libraryicon.jpg";
 import transport from "./image/transport.jpg";
 import activity from "./image/activityicon.jpg";
+import media from "./image/mediaicon.png";
+import gallery from "./image/galleryicon.png";
+import awards from "./image/awardpicsm.jpg"
+import download from "./image/downloadicon.png"
 
 import sunilSir from "../school/image/sunilSIr.jpg";
 import Sudarsansir from "./image/SudarsanSir.jpg";
@@ -19,7 +23,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { Link } from "react-router-dom";
-
+import PeopleIcon from '@mui/icons-material/People';
+// import { Download } from "@mui/icons-material";
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 function Home() {
   const images = [img1, img2, img3, img4, img5];
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,23 +41,76 @@ function Home() {
     return () => clearInterval(interval);
   }, [images.length]);
 
+
+  const notifications=[{
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  {
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  {
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  {
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  {
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  {
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  {
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  {
+    "date":"27-02-2003",
+    "message":"result"
+  },{
+    "date":"28-02-2024",
+    "message":"metting"
+  },
+  
+
+];
   return (
     <>
       <div className="school_home_contaner">
         <div className="school_home_contaner_inner">
           {/* <Slideshow /> */}
-          <div style={{ height: "100%", zIndex: 0 }}>
-            <img
+          <div className="SC_slide" >
+            <img className="SC_slide_image"
               src={images[currentIndex]}
               alt=""
-              style={{
-                width: "100%",
-                height: "100%",
-                marginTop: "",
-                border: "1px solid black",
-                boxShadow: "0px 0px 5px black",
-                padding: "5px",
-              }}
+              
             />
           </div>
         </div>
@@ -102,6 +161,7 @@ function Home() {
             </ul>
           </div>
           <hr style={{ boxShadow: "0px 0px 0px 1px black" }} />
+          
           <div className="DR_SK_SUnil">
             <div className="DR_SK_SUnil1">
               <img src={sunilSir} alt="" />
@@ -126,9 +186,6 @@ function Home() {
                 </p>
                 <button>Read More »</button>
               </div>
-
-
-              
               <img src={Sudarsansir} alt="" />
             </div>
           </div>
@@ -178,9 +235,52 @@ function Home() {
             </div>
           </div>
         </div>
+        
+        <div className="SC_C">
+          <div className="SC_CON">
+            <div className="SC_CON1">
+              <div className="SC_con2">
+                <h3>Media</h3>
+                <div>
+                  <img src={media} alt="" />
+                </div>
+              </div>
+              <div className="SC_con2">
+                <h3>Media</h3>
+                <div>
+                  <img src={gallery} alt="" />
+                </div>
+              </div>
+              <div className="SC_con2">
+                <h3>Media</h3>
+                <div>
+                  <img src={awards} alt="" />
+                </div>
+              </div>
+              <div className="SC_con2">
+                <h3>Media</h3>
+                <div>
+                  <img src={download} alt="" />
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div className="SC_notification">
+            <h3 className="SC_n_I"><PeopleIcon className="SC_n_I_icon"/>  Latest News</h3>
+            <ul>
+              {notifications.map((notification, index) => (
+              <li key={index} style={{borderBottom:"2px solid black",scrollbar:"sc"}}>
+                <span ><CalendarMonthIcon/>{notification.date}: </span>
+                <p style={{paddingLeft:"20px",color:"blue"}}>{notification.message}</p>   
+              </li>
+              ))}
+            </ul>
+          </div>
+        </div>
 
-        <div className="school_home_contaner_inner1">
-          <h3>New notification</h3>
+        {/* <div className="school_home_contaner_inner1">
+          <h3>Latest notification</h3>
 
           <ul className="S_notification">
             <Link href="">
@@ -215,7 +315,7 @@ function Home() {
               </li>
             </Link>
           </ul>
-        </div>
+        </div> */}
 
         <div className="school_home_contaner_inner2">
           <h2>Social Media</h2>

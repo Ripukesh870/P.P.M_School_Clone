@@ -1,6 +1,8 @@
 import React from 'react'
 import School from './school/School'
 
+
+
 export class App extends React.Component {
   render() {
     return (
@@ -13,3 +15,4 @@ export class App extends React.Component {
 }
 
 export default App
+

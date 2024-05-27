@@ -4,7 +4,7 @@
     /* border: 2px solid rgb(123, 115, 115); */
     display: flex;
     width: auto;
-    height: 60px;
+    /* height: 60px; */
     justify-content: space-between;
     /* margin: 15px; */
     background-color: #d2d4d8;
@@ -33,10 +33,11 @@
 .school_navbar_contaner1{
     /* border: 2px solid red; */
     display: flex;
+    flex-wrap: wrap;
 }
 
 .school_navbar_contaner1 .Sbtn{
-    margin : auto 5px;
+    margin : auto 2px;
 }
 
 .schoo_btn{
@@ -44,15 +45,13 @@
     border: none;
     color: black;
     /* width: 100px; */
-    margin : auto 0px;
+    /* margin : auto 0px; */
     background-color: #d2d4d8;
 }
 
 .school_menu{
     display: none;
 }
-
-
 
 
 @media (max-width: 852px) {

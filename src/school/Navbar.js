@@ -78,6 +78,7 @@ function Navbar() {
                         </ul>
                     </div>
 
+
                     <div className="dropdown Sbtn school_dropbutton" >
                         <button className="btn btn-secondary dropdown-toggle school_dropdwn_togal schoo_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About Us
