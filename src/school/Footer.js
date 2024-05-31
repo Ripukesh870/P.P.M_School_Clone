@@ -13,7 +13,7 @@ function Footer() {
     <>
      <div className='SC_continer'>
       <div className="SC_inner_container">
-
+          map
       </div>
       <div className='SC_inner_container1'>
         <div className='SC_inner_container11'>

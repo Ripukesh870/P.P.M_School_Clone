@@ -196,7 +196,7 @@ function Home() {
             <h4 className="SFB1">Our</h4>
             <h4 className="SFB2">Facility</h4>
           </div>
-          <div >
+          <div  className="OurFaclitit" >
             <div className="OurFaclititys">
               <div className="OurFaclititys1">
                 <div  className="OurFaclititys2">

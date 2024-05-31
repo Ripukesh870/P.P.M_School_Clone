@@ -161,6 +161,14 @@
     color: white;
     padding-right: 20px;
 }
+.OurFaclititys3{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-right: 30px; */
+    text-align: left;
+    color: white;
+    /* padding-right: 20px; */
+}
 
 .OurFaclititys2 button, .OurFaclititys3 button{
     border: none;
@@ -171,11 +179,11 @@
 
 .OurFaclititys3{
     /* border: 2px solid red; */
-    width: 100%;
+    /* width: 100%; */
     /* margin-right: 50px; */
     /* text-align: left; */
-    padding: 10px;
-    color: white;
+    /* padding: 10px; */
+    /* color: white; */
 }
 
 .OurFaclititys1 .img1{
@@ -383,4 +391,140 @@
         width: 70%;
     }
 
+}
+
+@media (max-width: 857px) {
+    .OurFaclitit{
+        /* border: 2px solid red; */
+        /* margin: auto; */
+    }
+
+    .OurFaclititys{
+        /* border: 2px solid red; */
+        display: block;
+                
+    }
+    .OurFaclititys1{
+        /* border: 2px solid red; */
+        margin: 15px auto;
+        width: 70%;
+        /* margin-top: 20px; */
+    }
+    .OurFaclititys2{
+        /* border: 2px solid red; */
+    }
+    .OurFaclititys3{
+        /* border: 2px solid red; */
+        left: 20px;
+        width: 70%;
+        margin: auto;
+    }
+    .img1{
+        /* border: 2px solid red; */
+    }
+    .img2{
+        /* border: 2px solid red; */
+        /* width: 38%; */
+        border-radius: 50%;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .OurFaclitit{
+        /* border: 2px solid red; */
+        
+    }
+
+    .OurFaclititys{
+        /* border: 2px solid red; */
+        display: block;
+                
+    }
+    .OurFaclititys1{
+        /* border: 2px solid red; */
+        margin: auto;
+        width: 60%;
+
+    }
+    .OurFaclititys2{
+        /* border: 2px solid red; */
+    }
+    .OurFaclititys3{
+        /* border: 2px solid red; */
+        left: 20px;
+        width: 60%;
+        margin: auto;
+    }
+    .img1{
+        /* border: 2px solid red; */
+        /* width: 80px; */
+        /* height: 80px; */
+        /* margin: -40px; */
+        border-radius: 0px;
+    }
+    .img2{
+        /* border: 2px solid red; */
+        /* width: 38%; */
+        /* border-radius: 60%; */
+    }
+
+}
+
+@media (max-width: 540px) {
+    .OurFaclititys1{
+        /* border: 2px solid red; */
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+        
+    }
+    .OurFaclititys{
+        /* border: 2px solid red; */
+
+    }
+    .OurFaclititys2{
+        /* border: 2px solid red; */
+    }
+    .img1{
+        justify-content: center;
+        margin:10px 30%;
+        padding: 0;
+        /* border: 2px solid red; */
+        
+    }
+    .OurFaclititys1 .img2{
+        margin: 15px 30%;
+        /* border: 2px solid red; */
+        border-radius: 50%;
+    }
+    .OurFaclititys3{
+        /* border: 2px solid red; */
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+}
+
+@media (max-width: 436px) {
+    .DR_SK_SUnil1{
+        border: 2px solid red;
+        display: block;
+        margin: 10px 0px;
+    }
+    .DR_SK_SUnil1 img{
+        width: 100%;
+    }
+    .DR_SK_SUnil1 div{
+        width: 100%;
+    }
+    .School_CBSE ul{
+        /* border: 2px solid red; */
+        margin: 20px -10px;
+    }
+    .School_CBSE ul li{
+        /* border: 2px solid red; */
+        margin: 10px -10px;
+        font-size: small;
+    }
 }
