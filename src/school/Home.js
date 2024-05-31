@@ -14,7 +14,7 @@ import media from "./image/mediaicon.png";
 import gallery from "./image/galleryicon.png";
 import awards from "./image/awardpicsm.jpg"
 import download from "./image/downloadicon.png"
-
+import sports from './image/sports.jpg'
 import sunilSir from "../school/image/sunilSIr.jpg";
 import Sudarsansir from "./image/SudarsanSir.jpg";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -207,9 +207,9 @@ function Home() {
                 <img className="img1" src={library} alt="" />
               </div>
               <div className="OurFaclititys1">
-                <img className="img2" src={library} alt="" />
+                <img className="img2" src={transport} alt="" />
                 <div className="OurFaclititys3">
-                  <h5>library</h5>
+                  <h5>Transport</h5>
                   <p>Annual Budget for Library for 2019-20.</p>
                   <button>Read More »</button>
                 </div>
@@ -218,16 +218,16 @@ function Home() {
             <div className="OurFaclititys">
               <div className="OurFaclititys1">
                 <div  className="OurFaclititys2">
-                  <h5>library</h5>
+                  <h5>Activity</h5>
                   <p>Annual Budget for Library for 2019-20.</p>
                   <button>Read More »</button>
                 </div>
-                <img className="img1" src={library} alt="" />
+                <img className="img1" src={activity} alt="" />
               </div>
               <div className="OurFaclititys1">
-                <img className="img2" src={library} alt="" />
+                <img className="img2" src={sports} alt="" />
                 <div className="OurFaclititys3">
-                  <h5>library</h5>
+                  <h5>Sports</h5>
                   <p>Annual Budget for Library for 2019-20.</p>
                   <button>Read More »</button>
                 </div>
@@ -246,19 +246,19 @@ function Home() {
                 </div>
               </div>
               <div className="SC_con2">
-                <h3>Media</h3>
+                <h3>Gallery</h3>
                 <div>
                   <img src={gallery} alt="" />
                 </div>
               </div>
               <div className="SC_con2">
-                <h3>Media</h3>
+                <h3>Awards</h3>
                 <div>
                   <img src={awards} alt="" />
                 </div>
               </div>
               <div className="SC_con2">
-                <h3>Media</h3>
+                <h3>Download</h3>
                 <div>
                   <img src={download} alt="" />
                 </div>
