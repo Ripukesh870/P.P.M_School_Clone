@@ -340,7 +340,7 @@
         margin-top: 30px;
     }
     .SC_CON{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
     }
     .SC_notification{
@@ -349,7 +349,7 @@
         margin: auto;
     }
     .school_home_contaner_inner{
-        border: 2px solid #ff0000;
+        /* border: 2px solid #ff0000; */
         height: 400px;
     }
 }
@@ -358,12 +358,12 @@
 
 @media (max-width: 600px) {
     .school_home_contaner_inner{
-        border: 2px solid #ff0000;
+        /* border: 2px solid #ff0000; */
         height: 300px;
         margin: 10px;
     }
     .SC_CON{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
     }
     .SC_CON1{
@@ -508,7 +508,7 @@
 
 @media (max-width: 436px) {
     .DR_SK_SUnil1{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: block;
         margin: 10px 0px;
     }

@@ -13,12 +13,13 @@ import { YouTube } from '@mui/icons-material';
 
 function Footer() {
 
-  const apiKey = 'AIzaSyDZ1zRF1Tq5MpDycIhcpeO0fsEsAnGvCAA';
+  // const apiKey = 'AIzaSyDZ1zRF1Tq5MpDycIhcpeO0fsEsAnGvCAA';
+  // const apiKey="";
 
   // Map styles
-  const mapStyles = {
-    height: "200px",
-    width: "100%",
+  // const mapStyles = {
+  //   height: "200px",
+  //   width: "100%",
     // styles: [
     //   {
     //     featureType: "poi",
@@ -31,7 +32,7 @@ function Footer() {
     //     stylers: [{ visibility: "off" }]
     //   }
     // ]
-  };
+  // };
 
   // Map center
   const defaultCenter = {
@@ -45,13 +46,13 @@ function Footer() {
           <div className="SC_inner_container_footer">
             <h5>Location Map</h5>
 
-            <LoadScript googleMapsApiKey={apiKey}>
+            {/* <LoadScript googleMapsApiKey={apiKey}>
               <GoogleMap
                 mapContainerStyle={mapStyles}
                 zoom={13}
                 center={defaultCenter}
               />
-            </LoadScript>
+            </LoadScript> */}
           </div>
           <div className='SC_inner_container1_foter'>
             <div className='SC_inner_container11_footer'>
@@ -83,7 +84,7 @@ function Footer() {
             <YouTube className='Footer_icon F_i_y' />
           </div>
           
-        </div>
+        </div>7
       </div>
       <div className='SC_Lower_footer_container1'>
         © 2020 PPM School Jehanabad. All rights reserved | Design by <span style={{color:"black",fontWeight:"bold"}} > Ripukesh Kumar</span> 

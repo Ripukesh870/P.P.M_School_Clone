@@ -11,7 +11,7 @@
     display: flex;
 }
 .SC_inner_container_footer{
-    /* border: 2px solid red; */
+    border: 2px solid rgb(119, 105, 105);
     width: 50%;
     padding: 15px;
 }
@@ -74,7 +74,7 @@
 
 }
 .Footer_icon{
-    border: 2px solid rgb(190, 186, 186);
+    border: 2px solid rgb(171, 156, 156);
     /* color: rgb(105, 99, 216); */
     font-size: 35px;
     margin: 20px;
@@ -95,7 +95,7 @@
 }
 
 .SC_Lower_footer_container1{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     margin: 0;
     padding: 0;
