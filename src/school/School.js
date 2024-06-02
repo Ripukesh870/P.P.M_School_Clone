@@ -34,9 +34,10 @@ function School() {
           <Route path='/forget' element={<Forget/>} />
            */}
         </Routes>
+        <Footer />
       </BrowserRouter>
 
-        <Footer />
+        
     </div>
   )
 }
